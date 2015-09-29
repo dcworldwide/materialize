@@ -1,10 +1,10 @@
 // package metadata file for Meteor.js
 
 Package.describe({
-  name: 'materialize:materialize',  // http://atmospherejs.com/materialize/materialize
+  name: 'dcworldwide:materialize',  // http://atmospherejs.com/materialize/materialize
   summary: 'Materialize (official): A modern responsive front-end framework based on Material Design',
   version: '0.97.0',
-  git: 'https://github.com/Dogfalo/materialize.git'
+  git: 'https://github.com/dcworldwide/materialize.git'
 });
 
 Package.onUse(function (api) {
@@ -35,7 +35,8 @@ Package.onUse(function (api) {
     'font/roboto/Roboto-Thin.ttf',
     'font/roboto/Roboto-Thin.woff',
     'font/roboto/Roboto-Thin.woff2',
-    'bin/materialize.css',
+    //'bin/materialize.css',
+    'sass/materialize.scss',
     'bin/materialize.js',
   ], 'client');
 });
